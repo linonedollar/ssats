@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*pad*/
+@media screen and (max-width: 1024px) {
+     @viewport {
+         width: 960px;
+    }
+}
+
+@media screen and (max-width: 1280px) {	
+	#header nav ul li {
+		margin-left: 1em;
+	}	
+}
+
+	
+@media screen and (min-width: 767px){
+	.jumbotron{
+		padding:30px
+	}
+	ul.navinfo{
+		position:fixed;overflow:hidden;
+		-webkit-transform:translateX(-120%);
+		-ms-transform:translateX(-120%);
+		transform:translateX(-120%);
+		top:0;
+		background-color:#52a89c;
+		height:100%;
+		width:100%;
+		text-align:left;
+		margin-left:-15px;
+		margin-top:50px
+	}
+		
+	nav .nav-item .nav-list{
+		display:block;
+		clear:both;
+	}
+	nav .nav-item .nav-list a{
+		transition:0.5s;
+		display:block;
+	}
+	nav .nav-item .nav-list a:hover{
+		background-color:#49978c;
+	}
+	nav .nav-item .nav-list a:focus{
+		background-color:#41857c;
+	}
+	nav .nav-item .nav-list a::before{
+		display:none;
+	}	
+	.container{
+		width:750px;
+	}
+	
+	.container .jumbotron,.container-fluid .jumbotron{
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+	.jumbotron h1,.jumbotron .h1{
+		font-size:63px
+	}
+}
+
+
+@media (man-width: 992px){
+	.container{width:970px}
+}
+@media (man-width: 1200px){
+	.container{width:1170px}
+}

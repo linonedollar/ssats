@@ -1,0 +1,325 @@
+#Topitem {
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+/* 配合RWD另外撰寫
+#Topitem h1 {
+    font-size: 2.5rem;
+}*/
+
+#Topitem h1 a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#Topitem h2 {
+    font-size: 13px;
+    float: right;
+}
+
+#Topitem h2 a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #a1caec;
+}
+
+.wrapper-login {
+    margin-top: 5%;
+}
+
+.campus {
+    border-radius: 6px;
+    background-color: white;
+    border-top: 10px solid #227d4b;
+    box-shadow: 0 5px 15px 3px lightgray;
+    padding-top: 28px;
+    padding-bottom: 48px;
+    margin-bottom: 30px;
+    color: inherit;
+}
+
+.campus-wrap {
+    border-radius: 6px;
+    background-color: white;
+    border-top: 10px solid #227d4b;
+    box-shadow: 0 5px 15px 3px lightgray;
+    padding-top: 28px;
+    padding-bottom: 48px;
+    margin-bottom: 30px;
+    color: inherit;
+}
+
+.campusbox {
+    margin-bottom: 30px;
+    text-align: right;
+    display: inline-block;
+    width: 100%;
+}
+
+.campus-btn {
+    background-color: #259632;
+    font-family: 微軟正黑體, 微軟正黑體Mono, 華康中黑體, DFKai-sb, 標楷體, DFHeiLight-B5, 華康細黑體, "Microsoft JhengHei", woff2;
+    color: #fff;
+    line-height: 24px;
+    vertical-align: middle;
+    margin-right: 3%;
+    margin-bottom: 10px;
+}
+
+.regionbox {
+    border-radius: 6px;
+    background-color: white;
+    border-top: 10px solid #d9679e;
+    box-shadow: 0 5px 15px 3px lightgray;
+    padding-top: 28px;
+    padding-bottom: 48px;
+    margin-bottom: 30px;
+    color: inherit;
+}
+
+.region-btn {
+    background-color: #c769a4;
+    font-family: 微軟正黑體, 微軟正黑體Mono, 華康中黑體, DFKai-sb, 標楷體, DFHeiLight-B5, 華康細黑體, "Microsoft JhengHei", woff2;
+    color: #fff;
+    line-height: 24px;
+    vertical-align: middle;
+    margin-right: 3%;
+    margin-bottom: 10px;
+}
+
+.coachlivebox {
+    margin-bottom: 30px;
+    text-align: right;
+    display: inline-block;
+    width: 100%;
+}
+
+.container_form {
+    margin: 0 5%;
+}
+
+.i-box p a {
+    font-size: 22px;
+    color: black;
+}
+
+.i-box p a:hover {
+    color: #990066;
+}
+
+.row header {
+    font-size: 34px;
+    color: #555;
+    font-weight: normal;
+}
+
+.region-table {
+    margin: 1em 0;
+    width: 100%;
+    overflow: hidden;
+    background: #FFF;
+    color: #773875;
+    border-radius: 0px;
+    border: 1px solid #d9b6da;
+}
+
+.region-table th {
+    background-color: #c16aa1;
+    color: #fff;
+    border: 1px solid #D6D6D6;
+    padding: 6px 10px 6px 10px;
+}
+
+.region-table tr {
+    border: 1px solid #D9E4E6;
+}
+
+.region-table td {
+    text-align: center;
+    display: table-cell;
+    border-right: 1px solid #e6cde6;
+    border-bottom: 1px solid #e6cde6;
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+.region-table tr:nth-child(odd) {
+    background-color: #fef6ff;
+}
+
+.i-box {
+    display: inline-flex;
+}
+
+.i-box>i {
+    display: block;
+    color: #cf8bb6;
+    font-size: 32px;
+    line-height: 32px;
+    font-style: normal;
+    margin-right: 20px;
+}
+
+.i-box>i.school {
+    display: block;
+    color: #3db937;
+    font-size: 32px;
+    line-height: 32px;
+    font-style: normal;
+    margin-right: 20px;
+}
+
+.i-box p a {
+    font-size: 22px;
+    color: black;
+}
+
+.i-box p.s a:hover {
+    color: #009700;
+}
+
+.school:before {
+    content: "\f0b2";
+    font-family: FontAwesome;
+}
+
+.i-settings:before {
+    content: '\f0ea';
+    font-family: FontAwesome;
+}
+
+.reg-wrap header h2 {
+
+    font-size: 34px;
+    color: #555;
+    font-weight: normal;
+    padding-left: 0px;
+}
+
+.coach-wrap {
+    max-width: 100%;
+    display: block;
+    padding: 40px 60px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.coach-wrap label {
+    width: 25%;
+    font-size: 1.5em;
+    text-align: right;
+    padding-right: 15px;
+    color: #444;
+}
+
+.coach p {
+    margin-bottom: 15px;
+    text-align: left;
+    color: #555;
+}
+
+.coach-wrap input[type="text"],
+.coach-wrap input[type="password"],
+.coach-wrap textarea {
+    padding: 20px 25px;
+    width: 60%;
+    margin-bottom: 5px;
+    background-color: #fafafa;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+
+.campus-title header h2 {
+    font-size: 34px;
+    color: #555;
+    font-weight: normal;
+    padding-left: 0px;
+}
+
+.campus-content {
+    max-width: 100%;
+    display: block;
+    padding: 40px 60px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.campus-boder {
+    border: 1px solid #3db937;
+}
+
+.campus-table {
+    width: 100%;
+    overflow: hidden;
+    background: #FFF;
+    color: #333;
+    border-radius: 0px;
+}
+
+.campus-table td {
+    padding: 10px 10px 10px 10px;
+    display: table-cell;
+    text-align: left;
+    border-right: 1px solid #8edba8;
+    border-bottom: 1px solid #8edba8;
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+.campus-table tr:nth-child(odd) {
+    background-color: #fafffc;
+}
+
+.campus-input {
+    display: inline-block;
+    width: 90%;
+    height: 34px;
+    font-size: 16px;
+    line-height: 40px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    border-radius: 8px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    margin-bottom: 5px
+}
+
+a.campus-btn,
+button.campus-btn,
+input.campus-btn {
+    background-color: #259632;
+    font-family: 微軟正黑體, 微軟正黑體Mono, 華康中黑體, DFKai-sb, 標楷體, DFHeiLight-B5, 華康細黑體, "Microsoft JhengHei", woff2;
+    color: #fff;
+    line-height: 24px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.offset-form {
+    width: 100%;
+    display: block;
+    margin: 20px 0px 20px;
+    padding-bottom: 20px;
+}

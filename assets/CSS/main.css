@@ -1,0 +1,255 @@
+.wrapper-login{
+	padding-top: 11em;
+    display: block;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+
+    html,
+    body,
+    div,
+    span,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    abbr,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    img,
+    ins,
+    kbd,
+    q,
+    s,
+    samp,
+    small,
+    strike,
+    strong,
+    sub,
+    sup,
+    tt,
+    var,
+    b,
+    u,
+    i,
+    center,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    details,
+    embed,
+    figure,
+    figcaption,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    output,
+    ruby,
+    section,
+    summary,
+    time,
+    mark,
+    audio,
+    video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+    }
+
+.wrapper-login:before, .wrapper-login:after {
+	content: " ";
+	display:block;
+	clear:both;
+	height:0;
+}
+
+.container{
+		
+	}
+
+
+.container .campus-wrap, .container-fluid .campus-wrap{
+	border-radius:6px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.campus-wrap {
+	background-color: white;
+	border-top: 10px solid #227d4b;
+	box-shadow: 0 5px 15px 3px lightgray;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    margin-bottom: 30px;
+}
+
+.row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+.campus-title header {
+	margin:0px auto 20px;
+}
+
+.campus-title header h1{
+	font-size: 40px;
+    color: #439e45;
+    font-weight: normal;
+    padding-left: 0px;
+}
+
+ h1,
+.h1 {    
+        line-height: 32px;
+    }
+        
+.campusbox-form {
+    font-size: 1em;
+    border-radius: 15px;
+    background: rgba(37, 150, 50, 0.6);
+    padding-bottom: 15px;
+}
+
+.campusbox-form h2{
+    font-size: 22px;
+    font-family: "微軟正黑體Mono", "華康中黑體";
+    padding-top: 10px;
+    padding-left: 15px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.offset-2 {
+	position: relative;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.well {
+    min-height: 100px;
+    padding: 30px 40px 80px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 15px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+}
+
+input,
+    button {
+        font: inherit;
+    }
+
+.label {
+	display: inline-block;
+	max-width: 100%;
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: #555;
+}
+
+.form-control{
+	display: block;
+	width: 100%;
+	height: 34px;
+	font-size: 16px;
+	line-height: 40px;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	padding-left: 10px;
+    border-radius: 8px;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	-o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+	transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+	margin-bottom: 5px;
+	}
+
+.pa-top10 {
+	padding-top:10px;
+}
+
+.form-inblock {
+	display:inline-block
+}
+
+ .float-left {
+        float: left;
+    }
+
+.offset-form{
+	width: 100%;
+    display: block;
+    margin: 20px 0px 20px;
+    padding-bottom: 20px;
+}
+
+a.campus-btn, button.campus-btn, input.campus-btn{
+	background-color: #259632;
+	font-family: 微軟正黑體, 微軟正黑體Mono, 華康中黑體 ,DFKai-sb, 標楷體 ,DFHeiLight-B5, 華康細黑體, "Microsoft JhengHei", woff2;
+	color: #fff;
+	line-height: 24px;
+	vertical-align: middle;
+	margin-left: 5px;
+}
+
+.btn{
+	display:inline-block;
+	margin-bottom:0;
+	font-weight:normal;
+	text-align:center;
+	background-image:none;
+	border:1px solid transparent;
+	white-space:nowrap;
+	padding:6px 12px;
+	font-size:16px;
+	border-radius:8px;
+	user-select:none; /*用户不能選擇元素中的任何内容*/
+}
+
+.campusbox-form .campustxt {
+	color: #FFF;
+    padding-left: 20px;
+}
+
+.campusbox-form .campustxt span {
+	font-size: 15px;
+}

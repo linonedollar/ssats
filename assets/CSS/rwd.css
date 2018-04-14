@@ -1,0 +1,58 @@
+@media only screen and (min-width: 980px) {
+    .label > span{
+    	font-size:24px;
+    }
+    .pa-top10 > span{
+		
+    	font-size:24px;
+    }
+}
+@media only screen and (min-width: 768px) {
+	h1 > a{
+		font-size: 2rem;	
+	}
+}
+@media only screen and (max-width: 1000px){
+	h1 > a{
+		font-size: 2rem;	
+	}
+	.nav-text{
+		font-size: 0.9rem;
+	}
+	.navbar-expand-md .navbar-nav .nav-link{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+@media only screen and (max-width: 450px) {
+    h1{
+    	font-size: 2rem;
+    }
+    header > h1{
+    	font-size:1.7rem;
+    }
+    .label > span{
+    	font-size:14px;
+    }
+    .region-button{
+    	display: block;
+    	width: 100%;
+    	margin-bottom: 3%;
+    }
+}
+@media only screen and (max-width: 420px) {
+    h1{
+    	font-size: 2rem;
+    }
+    header > h1{
+    	font-size:1.5rem;
+    }
+    .label > span{
+    	font-size:14px;
+    }
+    .region-button{
+    	display: block;
+    	width: 100%;
+    	margin-bottom: 3%;
+    }
+}
